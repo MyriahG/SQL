@@ -66,7 +66,7 @@ VALUES
 -- Name the companies in the technology and retail industry.
 SELECT company_name
 FROM fortune_companies
-WHERE industry="technology"
+WHERE industry='Technology'
 OR industry="Retail";
 
 -- Round the average revenue of industries with over $100,000 to the nearest decimal.
@@ -87,5 +87,5 @@ ORDER BY paid_time_off_days DESC;
 -- Company in the technology industry with the minimum revenue. 
 SELECT company_name, MIN(revenue)
 FROM fortune_companies
-WHERE industry="Technology";
+WHERE industry='Technology';
 
